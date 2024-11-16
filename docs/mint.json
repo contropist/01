@@ -33,28 +33,73 @@
   },
   "navigation": [
     {
-      "group": "Getting Started",
-      "pages": ["getting-started/introduction", "getting-started/setup"]
+      "group": "Setup",
+      "pages": [
+        "setup/introduction",
+        "setup/installation"
+      ]
+    },
+    {
+      "group": "Safety",
+      "pages": [
+        "safety/introduction",
+        "safety/risks",
+        "safety/measures"
+      ]
     },
     {
       "group": "Server",
-      "pages": ["server/setup"]
-    },
-    {
-      "group": "Services",
       "pages": [
-        "services/language-model",
-        "services/speech-to-text",
-        "services/text-to-speech"
+        "server/introduction",
+        "server/livekit",
+        "server/light",
+        "server/configure",
+        "server/flags"
       ]
     },
     {
       "group": "Client",
-      "pages": ["client/setup"]
+      "pages": [
+        "client/introduction",
+        "client/android-ios",
+        "client/desktop",
+        "client/esp32",
+        "client/native-ios"
+      ]
     },
     {
-      "group": "Bodies",
-      "pages": ["bodies/01-light", "bodies/01-heavy"]
+      "group": "Hardware",
+      "pages": [
+        "hardware/introduction",
+        {
+          "group": "01 Light",
+          "pages": [
+            "hardware/01-light/introduction",
+            "hardware/01-light/materials",
+            "hardware/01-light/case",
+            "hardware/01-light/assembly",
+            "hardware/01-light/chip",
+            "hardware/01-light/connect"
+          ]
+        },
+        "hardware/desktop",
+        "hardware/mini-phone",
+        "hardware/grimes",
+        "hardware/custom"
+      ]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "troubleshooting/faq"
+      ]
+    },
+    {
+      "group": "Legal",
+      "pages": [
+        "legal/privacy-policy",
+        "legal/terms-of-service"
+      ]
     }
   ],
   "feedback": {
@@ -62,7 +107,7 @@
   },
   "footerSocials": {
     "twitter": "https://x.com/OpenInterpreter",
-    "github": "https://github.com/KillianLucas/01",
-    "discord": "https://discord.gg/E2XTbkj4JF"
+    "github": "https://github.com/OpenInterpreter/01",
+    "discord": "https://discord.com/invite/Hvz9Axh84z"
   }
 }

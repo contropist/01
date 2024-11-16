@@ -1,0 +1,81 @@
+---
+title: "Flags"
+description: "Customize the behaviour of your 01 from the CLI"
+---
+
+## CLI Flags
+
+### Server
+
+Specify the server to run.
+
+Valid arguments are either [livekit](/server/livekit) or [light](/server/light)
+
+```
+poetry run 01 --server light
+```
+
+### Server Host
+
+Specify the server host where the server will deploy.
+
+Default: `0.0.0.0`.
+
+```
+poetry run 01 --server-host 0.0.0.0
+```
+
+### Server Port
+
+Specify the server port where the server will deploy.
+
+Default: `10001`.
+
+```
+poetry run 01 --server-port 10001
+```
+
+### Expose
+
+Expose server to internet.
+
+```
+poetry run 01 --expose
+```
+
+### Client
+
+Specify the client.
+
+Valid argument is `light-python`
+
+```
+poetry run 01 --client light-python
+```
+
+### Server URL
+
+Specify the server URL that the client should expect.
+Defaults sets the server-host and server-port.
+
+Default: `None`.
+
+```
+poetry run 01 --server-url http://0.0.0.0:10001
+```
+
+### QR
+
+Display QR code to scan to connect to the server.
+
+```
+poetry run 01 --qr
+```
+
+### Help
+
+Show this message and exit.
+
+```
+poetry run 01 --help
+```

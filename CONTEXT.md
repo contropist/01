@@ -1,4 +1,4 @@
-# Takeaways
+# Context
 
 1. **Be minimal.**
 
@@ -6,13 +6,13 @@ Both to developers (the 01 should be very programmer friendly) and to the end us
 
 2. **Develop standards.**
 
-That should be compatible with other popular systems. For example, I think [LMC messages](https://docs.openinterpreter.com/protocols/lmc-messages) should ~ work on OpenAI's API and vice versa.
+That should be compatible with other popular systems.
 
 3. **Resonate strongly with a niche.**
 
 We need to pick a niche. I wonder if startups is the right niche for us (use the 01 to build and sell your own Tab, Pin, Rabbit, etc) or if we should go with education, as the Raspberry Pi and Arduino did. Computer science departments is where UNIX took hold.
 
-4. **Be afforable.**
+4. **Be affordable.**
 
 The most hackable, most basic 01 MUST be under $100, ideally under $70.
 
